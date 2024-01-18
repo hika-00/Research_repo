@@ -71,8 +71,8 @@ if __name__ == '__main__':
     save.save_model(epoch, model)
 
     """transitはReverseプロセスの回数 Reverse process の t の定義は1→0"""
-    # transit = [650, 700, 750, 800, 850, 900, 950]
-    transit = [600, 550, 500, 450, 400, 350, 300, 250, 200, 150, 100, 50]
+    transit = [50, 100, 150, 200, 250, 300]
+    #transit = [350, 400, 450, 500, 650, 700, 750, 800, 850, 900, 950]
     attempt = 30
 
     for i in transit:
