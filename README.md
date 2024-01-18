@@ -2,4 +2,5 @@
 for Research
 
 ### submodule変更点
-+ test
++ config → config_original
+  + mymoduleに変更後のconfig
